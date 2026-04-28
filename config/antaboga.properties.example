@@ -1,0 +1,22 @@
+# ===========================================
+# Antaboga ERP Configuration
+# Copy this file to antaboga.properties
+# DO NOT commit antaboga.properties to git!
+# ===========================================
+
+# Server
+server.port=1337
+server.host=127.0.0.1
+
+# Database (H2 embedded)
+# WAJIB: Ganti password di bawah ini sebelum digunakan
+db.path=./data/antaboga
+db.username=antaboga
+db.password=GANTI_PASSWORD_INI_SEBELUM_DIGUNAKAN
+
+# Session (detik)
+session.timeout=3600
+
+# Security
+security.csrf.enabled=true
+security.rate-limit=100

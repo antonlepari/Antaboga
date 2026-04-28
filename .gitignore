@@ -1,0 +1,31 @@
+# Build
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Application data
+data/
+logs/
+config/antaboga.properties
+
+# Secrets
+*.key
+*.pem
+*.p12
+*.jks
